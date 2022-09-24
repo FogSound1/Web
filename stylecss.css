@@ -1,0 +1,69 @@
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header ads"
+    "nav ad ads"
+    "nav article ads"
+    "footer footer footer";
+  background: limegreen;
+  grid-template-rows: 60px 60px 1fr 100px;
+  grid-template-columns: 20% 1fr 15%;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }
+header, footer, article, nav, div {
+  padding: 20px;
+  background: seagreen;
+}
+
+#pageHeader {
+  grid-area: header;
+}
+#pageFooter {
+  grid-area: footer;
+}
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainArticle img{ 
+  max-width: 30vw;
+  float: left;
+  margin: 10px;
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#mainNav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    } 
+#mainNav li {
+    text-align: center;
+    background-color: #077187;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px;
+    }
+#mainNav li:hover {
+        background-color: #074F57;
+    }
+#mainNav a {
+    color: #9ECE9A;    
+    }
+#siteAds {
+  grid-area: ads;
+  }
+#siteAds img{
+  max-width: 12vw;
+  float: left;
+  margin: 10px;
+ }
+#siteAD {
+  grid-area: ad;
+}
+#mainArticle li{
+    position: relative;
+    left: 19px;
+}
