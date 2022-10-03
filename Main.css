@@ -1,0 +1,47 @@
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "nav nav nav";
+  background: black;
+  grid-template-rows: 60px 60px 1fr 100px;
+  grid-template-columns: 20% 1fr 15%;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  color: whitesmoke;
+  }
+
+header, nav, div {
+  padding: 20px;
+  background: black;
+  fo
+}
+
+#PageHeader {
+  grid-area: header;
+}
+
+#MainNav { 
+  grid-area: nav; 
+  }
+#MainNav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    } 
+#MainNav li {
+    text-align: center;
+    background-color: darkorchid;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px;
+    color: floralwhite;
+    }
+#MainNav li:hover {
+        background-color: #074F57;
+    }
+#MainNav a {
+    color: #9ECE9A;    
+    }
