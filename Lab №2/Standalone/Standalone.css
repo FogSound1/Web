@@ -1,0 +1,83 @@
+body { 
+  display: block;
+  background: limegreen;
+  height: 100vh;
+  margin: 0;
+  }
+
+header, footer, article, nav, div {
+  padding: 20px;
+  background: seagreen;
+  float: left;
+  margin: 5px;
+}
+
+#pageHeader {
+  width: 79vw;
+}
+#pageFooter {
+  width: 96.2vw;
+  height: 7vh;
+}
+#mainArticle { 
+   width: 62vw;
+   float: left;
+  }
+#mainArticle img{ 
+  max-width: 30vw;
+  float: left;
+  margin: 10px;
+  }
+
+#mainArticle2 { 
+   width: 62vw;
+   float: left;
+  }
+#mainArticle2 img{ 
+  max-width: 29vw;
+  float: left;
+  margin: 10px;
+  }
+
+#mainNav { 
+   height: 65vh;
+  }
+#mainNav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    } 
+#mainNav li {
+    text-align: center;
+    background-color: #077187;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px;
+    }
+#mainNav li:hover {
+        background-color: #074F57;
+    }
+#mainNav a {
+    color: #9ECE9A;    
+    }
+#siteAds {
+  width: 13vw;
+  float: none;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  height: 76.3vh;
+  }
+#siteAds img{
+  max-width: 11vw;
+  float: left;
+  margin: 10px;
+ }
+#siteAD {
+ width: 62vw;
+ float: left;
+}
+#mainArticle li{
+    position: relative;
+    left: 19px;
+}
