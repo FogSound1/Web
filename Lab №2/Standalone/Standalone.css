@@ -1,59 +1,53 @@
 body { 
-  display: block;
   background: limegreen;
   height: 100vh;
+  width: 100vw;
   margin: 0;
   }
 
-header, footer, article, nav, div {
-  padding: 20px;
+header, footer, article, nav, div{
   background: seagreen;
   float: left;
-  margin: 5px;
+  margin: 0.4vh 0.2vw 0.4vh 0.2vw;
+}
+
+.container{
+  float: left;
+  width: 80vw;
+  background: limegreen;
 }
 
 #pageHeader {
-  width: 79vw;
+  width: 79.7vw;
+  padding-top: 3vh;
+  height: 5vh;
 }
 #pageFooter {
-  width: 95.21vw;
-  height: 7vh;
+  width: 99.6vw;
+  height: 5vh;
+  padding-top: 3vh;
 }
 #mainArticle { 
-   width: 63.2vw;
-   float: left;
+  width: 59.2vw;
+  height: 72vh;
   }
 #mainArticle img{ 
   max-width: 30vw;
   float: left;
-  margin: 10px;
+  margin: 0.4vh 0.2vw 0.4vh 0.2vw;
   }
-
-#mainArticle2 { 
-   width: 63.2vw;
-   float: left;
-   height: 53.3vh;
-  }
-#mainArticle2 img{ 
-  max-width: 29vw;
-  float: left;
-  margin: 10px;
-  }
-
 #mainArticle3 { 
-   width: 63.2vw;
-   float: left;
-   height: 53.3vh
+  width: 59.2vw;
+  height: 72vh;
   }
 #mainArticle3 img{ 
-  max-width: 29vw;
+  max-width: 25vw;
   float: left;
-  margin: 10px;
+  margin: 0.4vh 0.2vw 0.4vh 0.2vw;
   }
-
-#mainNav { 
-   height: 65vh;
-   width: 12vw;
+#mainNav {
+  width: 20vw; 
+  height: 80.7vh;
   }
 #mainNav ul{
     list-style: none;
@@ -74,23 +68,20 @@ header, footer, article, nav, div {
     color: #9ECE9A;    
     }
 #siteAds {
-  width: 12vw;
-  float: none;
-  top: 0px;
-  right: 0px;
-  position: absolute;
-  height: 76.3vh;
+  width: 19.2vw;
+  height: 90vh;
   }
 #siteAds img{
-  max-width: 11vw;
-  float: left;
-  margin: 10px;
+  max-width: 14vw;
+  margin: 3vh 2vw 0.5vh 2vw;
  }
 #siteAD {
- width: 63.2vw;
- float: left;
+  width: 59.2vw;
+  height: 5vh;
+  padding-top: 3vh;
+  float: center;
 }
-#mainArticle li{
+#mainArticle3 li{
+    left: 12px;
     position: relative;
-    left: 19px;
 }
