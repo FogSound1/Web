@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 100vh;
+  height: 90vh;
   margin: 0;
   background: limegreen;
 }
@@ -52,7 +52,7 @@ header, footer, article, nav, div {
 }
 
 #pageHeader {
-    height: 5vh;
+    height: 0.6vh;
     }
 
 #pageHeader h1 {
@@ -64,7 +64,7 @@ header, footer, article, nav, div {
 
 #pageFooter {
     width: 96%;
-    height: 8%;
+    height: 0.1%;
     }
 
 #pageFooter h2 {
